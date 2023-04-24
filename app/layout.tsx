@@ -2,6 +2,8 @@ import { Nunito } from "next/font/google";
 import Navbar from "./components/navbar/Navbar";
 
 import './globals.css'
+import Modal from "./components/modals/Modal";
+import ClientOnly from "./components/ClientOnly";  //fix for potential hydration issue on load
 
 export const metadata = {
   title: 'AirBnb Clone',
@@ -20,7 +22,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={font.className}>
-        <Navbar />
+        <ClientOnly>
+          <Modal title="hello" isOpen/>
+          <Navbar />
+        </ClientOnly>
         {children}
       </body>
     </html>
