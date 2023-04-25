@@ -4,6 +4,7 @@ import Navbar from "./components/navbar/Navbar";
 import './globals.css'
 import ClientOnly from "./components/ClientOnly";  //fix for potential hydration issue on load
 import RegisterModal from "./components/modals/RegisterModal";
+import ToasterProvider from "./providers/ToasterProvider";
 
 export const metadata = {
   title: 'AirBnb Clone',
@@ -23,6 +24,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={font.className}>
         <ClientOnly>
+          <ToasterProvider />
           <RegisterModal />
           <Navbar />
         </ClientOnly>
