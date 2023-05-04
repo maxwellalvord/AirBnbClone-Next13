@@ -11,8 +11,8 @@ import LoginModal from "./components/modals/LoginModal";
 import SearchModal from "./components/modals/SearchModal";
 
 export const metadata = {
-  title: 'AirBnb Clone',
-  description: 'AirBnb Clone Powered by Next.js',
+  title: 'Happy Homes',
+  description: 'Happy Homes Powered by Next.js',
 }
 
 const font = Nunito({
