@@ -55,6 +55,10 @@ npm run dev
 ## Known Bugs
 * Interacting with the Map and the map search drop down bar causes drop down bar to display under the map and 80% not visible to the user.
 
+### Disclaimer
+This is a test website for demonstration purposes only. The properties and listings displayed on this site are not real and should not be booked or reserved. The prices, availability, and information displayed on this site are for testing purposes only and do not reflect actual listings or rental prices. We are not affiliated with Airbnb or any other vacation rental platform. By using this site, you agree that we are not liable for any damages or losses that may result from the use of this test website.  
+
+
 ## License
 [MIT](https://opensource.org/osd)
 
