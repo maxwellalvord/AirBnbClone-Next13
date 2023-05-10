@@ -5,7 +5,7 @@
 #### [Visit the Live site!](https://happy-homes.vercel.app)
 
 <img
-  src="./HappyHomes.Png"
+  src="./HappyHomes.PNG"
   alt="Happy Homes"
   title="Happy Homes"
   style=" margin: 0 auto; max-width: 600px"
